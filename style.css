@@ -69,6 +69,7 @@ body {
     cursor: default;
     color: var(--text-color);
 }
+
 /* font */
 
 /* nav bar */
@@ -1027,61 +1028,61 @@ span {
                 padding: 0.8rem 1.2rem;
                 min-width: 90px;
             }
-        }
 
-        /* certificate section  */
-        /* Certificate Section */
-        .certificate {
-            background-color: var(--second-bg-color);
-            padding: 8rem 2rem;
-        }
 
-        /* Heading */
-        .heading {
-            text-align: center;
-            font-size: 4.5rem;
-            margin-bottom: 3rem;
-        }
+            /* certificate section  */
+            .certificate {
+                background-color: var(--second-bg-color);
+                padding: 8rem 2rem;
+            }
 
-        /* Container */
-        .certificate-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 2rem;
-        }
+            /* Heading */
+            .heading {
+                text-align: center;
+                font-size: 4.5rem;
+                margin-bottom: 3rem;
+            }
 
-        /* Certificate Card */
-        .certificate-box {
-            background-color: var(--bg-color);
-            border-radius: 25px;
-            padding: 2.5rem;
-            width: 300px;
-            text-align: center;
-            border: 1rem solid var(--second-bg-color);
-            box-shadow: 0 0 30px rgba(0, 255, 255, 0.1);
-            transition: all 0.3s ease;
-        }
+            /* Container */
+            .certificate-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 2rem;
+            }
 
-        /* Hover Effect */
-        .certificate-box:hover {
-            transform: scale(1.05);
-            box-shadow: 0 0 25px var(--main-color);
-        }
+            /* Certificate Card */
+            .certificate-box {
+                background-color: var(--bg-color);
+                border-radius: 25px;
+                padding: 2.5rem;
+                width: 300px;
+                text-align: center;
+                border: 1rem solid var(--second-bg-color);
+                box-shadow: 0 0 30px rgba(0, 255, 255, 0.1);
+                transition: all 0.3s ease;
+            }
 
-        /* Heading inside box */
-        .certificate-box h2 {
-            font-size: 2.4rem;
-            color: var(--main-color);
-            margin-bottom: 1rem;
-        }
+            /* Hover Effect */
+            .certificate-box:hover {
+                transform: scale(1.05);
+                box-shadow: 0 0 25px var(--main-color);
+            }
 
-        /* Paragraphs */
-        .certificate-box p {
-            font-size: 1.6rem;
-            color: var(--text-color);
-            line-height: 1.6;
-            margin: 0.5rem 0;
+            /* Heading inside box */
+            .certificate-box h2 {
+                font-size: 2.4rem;
+                color: var(--main-color);
+                margin-bottom: 1rem;
+            }
+
+            /* Paragraphs */
+            .certificate-box p {
+                font-size: 1.6rem;
+                color: var(--text-color);
+                line-height: 1.6;
+                margin: 0.5rem 0;
+            }
         }
 
         /* certificate section media queries */
@@ -1788,7 +1789,8 @@ span {
     margin-bottom: 5rem;
     min-height: 60vh;
 }
- .skills-container {
+
+.skills-container {
     margin-top: 4rem;
     display: flex;
     flex-direction: column;
@@ -1798,7 +1800,7 @@ span {
     transition: all 0.8s ease;
     align-items: center;
 }
-  
+
 .skills.show .skills-container {
     opacity: 1;
     max-height: 2000px;
@@ -1918,6 +1920,7 @@ span {
     background-color: var(--bg-color);
     border-radius: 25px;
     padding: 2.5rem;
+    margin-bottom: 5rem;
     width: 300px;
     text-align: center;
     border: 1rem solid var(--second-bg-color);
@@ -1972,7 +1975,8 @@ span {
     .certificate {
         padding: 6rem 1rem;
     }
-    .certificate{
+
+    .certificate {
         min-height: 60vh;
     }
 
@@ -2154,7 +2158,8 @@ form .btn:hover,
         margin: 1rem;
         border-radius: 1rem;
     }
-    .contact{
+
+    .contact {
         min-height: 30vh;
     }
 
